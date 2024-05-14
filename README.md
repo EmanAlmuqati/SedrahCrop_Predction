@@ -1,13 +1,12 @@
 # Crop Yield Prediction App
 
 ## Overview
-This Flask application predicts crop yields based on various inputs such as country, item type, amount of pesticides used, average temperature, and rainfall. It utilizes machine learning models (XGBoost and Random Forest) to make predictions and displays the results graphically.
+This Flask application predicts crop yields based on various inputs such as country, item type, amount of pesticides used, average temperature, and rainfall. It utilizes machine learning models (XGBoost and Random Forest) to make predictions and displays the results .
 
 ## Features
 - User can input data about crop conditions.
 - Data is stored temporarily in a session.
 - Users can choose between XGBoost and Random Forest models for predictions.
-- The application provides visual feedback in the form of a bar graph representing the predicted yields.
 - Data entries can be reset at any time.
 
 ## Prerequisites
